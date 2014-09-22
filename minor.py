@@ -33,9 +33,10 @@ while i < len(target_split):
 print "Length of data1 after phaseshift: ", len(data1)
 
 #4
-data1[0]=T1^theta
-data1[1]=S2^theta
-data1[2]=T2^theta
+
+data1[0]=T1^len(data1)
+data1[1]=S2^len(data1)
+data1[2]=T2^len(data1)
 data1[3]=theta
 
 #5
