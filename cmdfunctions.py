@@ -22,3 +22,6 @@ def splitArray(data, fs, theta):			#data => sampled data; fs => sampling frequen
 		i=b
 	
 	return splitA
+
+
+
